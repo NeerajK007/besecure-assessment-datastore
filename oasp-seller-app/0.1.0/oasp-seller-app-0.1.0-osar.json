@@ -1,0 +1,38 @@
+{
+    "schema_version": "0.1.0",
+    "asset": {
+        "type": "project",
+        "name": "oasp-seller-app",
+        "version": "0.1.0",
+        "url": "https://github.com/NeerajK007/oasp-seller-app",
+        "environment": "oasp-seller-app-RT-env"
+    },
+    "completionCriteria": [],
+    "completionStatus": false,
+    "assessments": [
+        {
+            "tool": {
+                "name": "spdx-sbom-generator",
+                "type": "sbom",
+                "version": "v0.0.15",
+                "playbook": "besman-spdx-sbom-generator-0.0.1-playbook.sh"
+            },
+            "execution": {
+                "type": "Organization",
+                "id": "Be-Secure",
+                "status": "success",
+                "timestamp": "Thu Oct 24 04:13:05 PM IST 2024",
+                "duration": "20 sec",
+                "output_path": "https://github.com/NeerajK007/besecure-assessment-datastore/oasp-seller-app/0.1.0/sbom/oasp-seller-app-0.1.0-sbom-report.json"
+            },
+            "results": [
+                {
+                    "feature": "Dependency",
+                    "aspect": "Count",
+                    "attribute": "N/A",
+                    "value": 2823
+                }
+            ]
+        }
+    ]
+}
