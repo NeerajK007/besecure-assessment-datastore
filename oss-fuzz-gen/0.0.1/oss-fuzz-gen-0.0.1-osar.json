@@ -45,8 +45,8 @@
                 "type": "Organization",
                 "id": "Be-Secure",
                 "status": "success",
-                "timestamp": "Wed Feb 12 05:00:03 PM IST 2025",
-                "duration": "0 sec",
+                "timestamp": "Wed Feb 12 05:13:25 PM IST 2025",
+                "duration": "1 sec",
                 "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/oss-fuzz-gen/0.0.1/sast/oss-fuzz-gen-0.0.1-sonarqube-report.json"
             },
             "results": [
